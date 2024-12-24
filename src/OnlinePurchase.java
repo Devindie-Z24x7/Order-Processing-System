@@ -1,4 +1,4 @@
-public class OnlinePurchase {
+public class OnlinePurchase implements PurchaseDetails {
     private String deliveryAddress;
 
     public OnlinePurchase(String deliveryAddress) {

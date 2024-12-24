@@ -1,4 +1,4 @@
-public class InStorePurchase {
+public class InStorePurchase implements PurchaseDetails {
     private String storeLocation;
 
     public InStorePurchase(String storeLocation) {

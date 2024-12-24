@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 
-public class Order<T> {
+public class Order<T extends PurchaseDetails> {
     private int orderId;
     private int customerId;
     private Product product;

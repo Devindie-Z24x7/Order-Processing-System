@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        List<Order<?>> orders = new ArrayList<>();
+        List<Order<? extends PurchaseDetails>> orders = new ArrayList<>();
 
 
         // Dummy data for categories
